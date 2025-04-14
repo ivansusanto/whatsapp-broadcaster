@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-packager . WhatsAppBroadcaster --platform=win32 --arch=x64 --out=dist --overwrite --icon=icon.ico"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron": "^35.1.5"
+  },
+  "devDependencies": {
+    "electron-packager": "^17.1.2"
+  }
+}
